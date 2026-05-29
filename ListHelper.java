@@ -12,7 +12,7 @@ public class ListHelper {
             return false;
         }
         if(list1.size() != list2.size()){
-            return false;
+            return true;
         }
         List<Integer> tempList = new ArrayList<>(list2);
         for(Integer value : list1){

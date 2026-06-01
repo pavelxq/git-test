@@ -8,6 +8,6 @@ import java.util.Map;
 @Data
 public class RequestData {
     private Map<String, Object> body = new HashMap<>();
-    //
+    
     private Map<String, Object> head = new HashMap<>();
 }
